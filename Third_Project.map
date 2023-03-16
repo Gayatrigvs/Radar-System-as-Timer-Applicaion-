@@ -1,0 +1,42 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Tue Jan 04 19:40:23 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .cinit    romdata   0x000000    program   0x000002
+                   .org_0       code   0x00002a    program   0x000022
+   .config_300001_RADAR.O    romdata   0x300001    program   0x000001
+   .config_300002_RADAR.O    romdata   0x300002    program   0x000001
+   .config_300006_RADAR.O    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000001      
+                            0x00002a    0x00004b      
+                            0x300001    0x300002      
+                            0x300006    0x300006      
+            39 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    AGAIN   0x000030    program     static C:\Users\Gayatri\Desktop\MP LAB\radar.asm
+            ROLLOVERCHECK   0x000042    program     static C:\Users\Gayatri\Desktop\MP LAB\radar.asm
+              SENSORCHECK   0x00003a    program     static C:\Users\Gayatri\Desktop\MP LAB\radar.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    AGAIN   0x000030    program     static C:\Users\Gayatri\Desktop\MP LAB\radar.asm
+              SENSORCHECK   0x00003a    program     static C:\Users\Gayatri\Desktop\MP LAB\radar.asm
+            ROLLOVERCHECK   0x000042    program     static C:\Users\Gayatri\Desktop\MP LAB\radar.asm
+
+
